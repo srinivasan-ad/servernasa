@@ -2,7 +2,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node .",
-    "dev": "nodemon ."
+    "dev": "nodemon .",
+    "build": "npm install --omit=dev" 
   },
   "dependencies": {
     "cors": "^2.8.5",
